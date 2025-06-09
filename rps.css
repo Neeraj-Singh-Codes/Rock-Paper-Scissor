@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(5, 5, 41);
+    text-align: center;
+    color: white;
+    line-height: 3em;
+}
+body{
+    background: linear-gradient(to right, rgb(4, 4, 64), rgb(63, 2, 43));
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+.images{
+    height: 200px;
+    width: 700px;
+    margin-top: 40px;
+    display: flex;
+    padding: 35px;
+    justify-content: space-evenly;
+}
+
+.rock{
+    background-image: url(rock.webp);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+    &:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+}
+
+.paper{
+    background-image: url(paper.webp);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+    &:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+}
+
+.scissor{
+    background-image: url(scissor.webp);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+
+    &:hover{
+    border: 3px solid black;
+    cursor: pointer;
+}
+}
+
+.scores{
+    margin-top: 95px;
+    font-size: 35px;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    color: white;
+}
+.your{
+    margin-right: 25px;
+}
+
+.content{
+    padding: 45px;
+}
+#msg{
+    background-color: rgb(54, 3, 37);
+    padding: 10px;
+    border-radius: 5%;
+    font-size: 35px;
+    display: inline;
+    color: white;
+}
+
+.chose{
+    width: 100vw;
+    font-size: 35px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.youchose{
+    border: 2px solid black;
+    width: 320px;
+    height: 60px;
+    line-height: 4rem;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(111, 43, 7, 0.5);
+    color: white;
+}
+
+.compchose{
+    border: 2px solid black;
+    width: 350px;
+    height: 60px;
+    line-height: 4rem;
+    border-radius: 12px;
+    padding: 5px;
+    background-color: rgba(111, 43, 7, 0.5);
+    color: white;
+}
